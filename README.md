@@ -1,2 +1,2 @@
 # landingpage
-A simple landing page implemented with flexbox
+A simple landing page implemented with flexbox.
