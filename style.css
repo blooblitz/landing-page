@@ -11,6 +11,10 @@ main {
     overflow-y: auto;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
 
 /* || UTILITIES */
 @media screen and (max-width:840px) {
@@ -40,11 +44,16 @@ main {
 .section-quote {
     background-color: #E5E7EB;
     height: 300px;
+    display: flex;
 }
 
 .section-calltoaction {
     background-color: #F9FAF8;
-    height: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 
 header, footer{
@@ -53,7 +62,10 @@ header, footer{
 }
 
 .footer {
-    height: 100px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* || Top navbar */
@@ -155,7 +167,54 @@ a {
     text-decoration: none;
 }
 
+/* || Quote Section */
+.quote-flex-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 10% 0 10%;
+    font: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.quote-attribution {
+    align-self: flex-end;
+    font-style: normal;
+    font-weight: bold;
+}
+
+/* || Call to Action Section */
+.calltoaction-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3882F6;
+    border-radius: 16px;
+    width: 500px;
+    padding: 0px 75px 0px 75px;
+}
+#callToAction {
+    color: #e5e7eb;
+}
+#callToAction >p {
+    font-size: 18px;
+}
+.calltoaction-container > button {
+    width: 150px;
+    height: 50px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-style:none;
+    border-radius: 10px;
+    align-self: center;
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 10px;
+    border-color: #e5e7eb;
+    border-style: solid;
+}
 
 
 
-
+00p
